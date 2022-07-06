@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-01T12:21:37.661Z",
+        "line": 2,
+        "name": "To check wheather the login functions  working properly",
+        "description": "",
+        "id": "login-functionality-of-boohoo.com-website;to-check-wheather-the-login-functions--working-properly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8653128100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on boohoo website",
+            "match": {
+              "location": "BoohooLoginDefinitions.user_is_on_boohoo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 307958500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to accept or dismiss the popup",
+            "match": {
+              "location": "BoohooLoginDefinitions.user_has_to_accept_or_dismiss_the_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264531500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on the login button account icon",
+            "match": {
+              "location": "BoohooLoginDefinitions.user_clicks_on_the_login_button_account_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 451878500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to enters the valid user and pass",
+            "match": {
+              "location": "BoohooLoginDefinitions.user_has_to_enters_the_valid_user_and_pass(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Prithiv",
+                  "1654"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521022200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User has to click on login button",
+            "match": {
+              "location": "BoohooLoginDefinitions.user_has_to_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25180500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User succesfully logged into the webpage",
+            "match": {
+              "location": "BoohooLoginDefinitions.user_succesfully_logged_into_the_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality of boohoo.com website",
+    "description": "",
+    "id": "login-functionality-of-boohoo.com-website",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/login.feature",
+    "tags": []
+  }
+]
